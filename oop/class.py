@@ -30,3 +30,12 @@ print(x)
 x = abs(-7.25)
 
 print(x)
+
+
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
